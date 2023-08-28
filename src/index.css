@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#ffffff, #ffffff);
+  color: #000000;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+header img {
+  width: 7rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header p {
+  margin: 0;
+}
+
+#info {
+  max-width: 80rem;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  background: rgba(102, 102, 102, 0.212);
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
+  width: 33%;
+  transition: all 0.2s
+}
+
+.cards:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(148, 243, 219, 0.733);
+  cursor: pointer;
+}
+
+.cards img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: scale-down;
+}
+
+.cards h2 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.cards p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+  text-align: start;
+}
+
+
+button{
+  border-radius: 2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  background-color: rgb(159, 160, 159);
+}
+
+
+button:hover{
+  background-color: rgba(75, 230, 230, 0.479);
+}
